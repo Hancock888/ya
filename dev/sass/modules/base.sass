@@ -1,0 +1,43 @@
+html
+  *
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+  font-size: 100%
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  height: 100%
+
+body
+  font: 15px  Arial, Verdana, sans-serif
+  line-height: 1.4
+  color: #000
+  direction: ltr
+
+p
+  margin-bottom: 1em
+
+.cl
+  &:before
+    content: ""
+    display: table
+  &:after
+    content: ""
+    display: table
+    clear: both
+  *zoom: 1
+  clear: both
+.w
+  margin: 0 auto
+  position: relative
+  width: 1000px
+  
+.row
+  clear: both
+
+.col
+  display: inline-block
+  vertical-align: top
+
+
+
